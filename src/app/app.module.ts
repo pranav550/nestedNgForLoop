@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CounterPipe } from './counter.pipe';
+import { HelloComponent } from './hello/hello.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CounterPipe,
+    HelloComponent
   ],
   imports: [
     BrowserModule,

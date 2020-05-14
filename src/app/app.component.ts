@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nestedNgForLoop';
+  prop = [{ name: 'test', values: ['a', 'b', 'c', 'd', 'e'] }, { name: 'test2', values: [5, 6, 7] }];
+
+
 }
